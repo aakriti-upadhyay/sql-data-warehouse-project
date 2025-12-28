@@ -1,33 +1,98 @@
-Data Warehouse and Analytics Project
+# 📊 Data Warehouse and Analytics Project
 
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
+This project demonstrates an **end-to-end data warehousing and analytics solution**, from raw data ingestion to business-ready insights. It is designed as a **portfolio project** and follows **industry best practices** in data engineering and analytics.
 
-📖 Project Overview
-This project involves:
-Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+---
 
-🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+## 📖 Project Overview
 
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-Scope: Focus on the latest dataset only; historization of data is not required.
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+This project covers the complete analytics lifecycle, including:
 
-BI: Analytics & Reporting (Data Analysis)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
+* **🏗 Data Architecture**
+  Designing a modern data warehouse using **Medallion Architecture**:
 
-Customer Behavior
-Product Performance
-Sales Trends
+  * **Bronze Layer** – Raw data ingestion
+  * **Silver Layer** – Cleaned and transformed data
+  * **Gold Layer** – Business-ready analytical data
+
+* **🔄 ETL Pipelines**
+  Extracting, transforming, and loading data from multiple source systems into SQL Server.
+
+* **📐 Data Modeling**
+  Designing **fact and dimension tables** optimized for analytical queries and reporting.
+
+* **📈 Analytics & Reporting**
+  Building SQL-based analytics and reports to generate **actionable business insights**.
+
+---
+
+## 🚀 Project Requirements
+
+### 1️⃣ Building the Data Warehouse (Data Engineering)
+
+#### 🎯 Objective
+
+Develop a **modern data warehouse** using **SQL Server** to consolidate sales data and enable analytical reporting for informed decision-making.
+
+#### 📌 Specifications
+
+* **Data Sources**
+
+  * Import data from two source systems:
+
+    * **ERP**
+    * **CRM**
+  * Data is provided in **CSV format**
+
+* **Data Quality**
+
+  * Cleanse and resolve data quality issues before analysis
+  * Handle missing, inconsistent, and duplicate records
+
+* **Data Integration**
+
+  * Combine ERP and CRM data into a **single, user-friendly analytical data model**
+
+* **Scope**
+
+  * Focus on the **latest available dataset**
+  * **No historization** or Slowly Changing Dimensions (SCD) required
+
+* **Documentation**
+
+  * Provide clear and structured documentation of:
+
+    * Data architecture
+    * Data model
+    * Key transformations
+  * Ensure usability for both **business stakeholders** and **analytics teams**
+
+---
+
+### 2️⃣ BI: Analytics & Reporting (Data Analysis)
+
+#### 🎯 Objective
+
+Develop **SQL-based analytics** to deliver meaningful insights into business performance.
+
+#### 📊 Key Analytical Areas
+
+* **Customer Behavior**
+
+  * Customer segmentation
+  * Purchase patterns
+  * High-value customers
+
+* **Product Performance**
+
+  * Top and bottom performing products
+  * Revenue contribution by product
+
+* **Sales Trends**
+
+  * Sales over time
+  * Seasonal patterns
+  * Growth and decline analysis
 
 
