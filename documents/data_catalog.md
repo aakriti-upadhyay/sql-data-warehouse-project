@@ -1,12 +1,12 @@
-# 📊 **Data Catalog – Gold Layer**
+# **Data Catalog – Gold Layer**
 
-## 🏆 Overview
+## Overview
 The **Gold Layer** represents the **business-level data model** designed to support reporting, analytics, and decision-making.  
 It follows a **star schema architecture**, consisting of **dimension tables** for descriptive attributes and **fact tables** for measurable business metrics.
 
 ---
 
-## 🧍 gold.dim_customers
+## gold.dim_customers
 
 ### Purpose
 Stores customer information enriched with demographic and geographic attributes.  
@@ -29,7 +29,7 @@ This table supports customer-level analysis, segmentation, and reporting.
 
 ---
 
-## 📦 gold.dim_products
+## gold.dim_products
 
 ### Purpose
 Contains product master data and descriptive attributes used for product-level analytics and reporting.
@@ -52,7 +52,7 @@ Contains product master data and descriptive attributes used for product-level a
 
 ---
 
-## 💰 gold.fact_sales
+## gold.fact_sales
 
 ### Purpose
 Stores transactional sales data at the **order-product grain**, enabling detailed analysis across customers, products, and time.
@@ -73,7 +73,7 @@ Stores transactional sales data at the **order-product grain**, enabling detaile
 
 ---
 
-## ⭐ Design Highlights
+## Design Highlights
 - Star schema optimized for analytical workloads  
 - Surrogate keys used for improved performance and historical tracking  
 - Fact table modeled at the correct transactional grain  
@@ -81,7 +81,7 @@ Stores transactional sales data at the **order-product grain**, enabling detaile
 
 ---
 
-## 🚀 Intended Use Cases
+## Intended Use Cases
 - Sales trend and performance analysis  
 - Customer segmentation and profiling  
 - Product performance reporting  
