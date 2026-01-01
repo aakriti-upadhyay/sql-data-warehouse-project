@@ -95,4 +95,6 @@ Develop **SQL-based analytics** to deliver meaningful insights into business per
   * Seasonal patterns
   * Growth and decline analysis
 
+* **Notion link** : https://maddening-mind-05f.notion.site/Data-Warehousing-Project-2d77227b820a80d08cc1e9e756785823?source=copy_link
+
 
